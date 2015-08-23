@@ -1,0 +1,62 @@
+<!--Desktop menu mobile    -->
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="0">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="http://prodcdn-large.jennycraig.com.au/sites/default/files/logo.png" alt="Jenny Craig Australia"></a>
+            {{>mobile-button}}
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="" id="bs-example-navbar-collapse-1 ">
+            <ul class="nav navbar-nav desktop-display">
+                <li class="divider"></li>
+                <li><a href="#"><img src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
+                    <span style="font-size: 22px;     margin-left: 5px;">1300 453 669</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right desktop-display">
+                {{#each helpers.menu-1}}
+
+                    <li><a class="list-menu-item" href="{{link}}">{{title}}</a></li><li class="divider divider-sm"></li>
+
+                {{/each}}
+
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--Desktop menu mobile  END  -->
+<!--Desktop menu mobile    -->
+<nav class="navbar navbar-sub">
+    <div class="container">
+
+
+
+        <div class="" id="bs-example-navbar-collapse-1" style="text-align: center">
+            <ul class="desktop-display nav navbar-nav navbar-center">
+                {{#each helpers.menu-2}}
+
+                    <li><a class="list-menu-item" href="{{link}}">{{title}}</a></li><li class="divider divider-md"></li>
+
+                {{/each}}
+            </ul>
+            <ul class="mobile-display mobile-display-flex nav navbar-nav navbar-center">
+                <li><a href="#"><img width="20" src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
+                    <span style="    font-size: 16px;     margin-left: 5px;">1300 453 669</span>
+                </a>
+                </li>
+
+                <li><a style="font-size: 16px;" href="{{helpers.start-today}}">Start Today <span class="fui-arrow-right" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+    </div><!-- /.container-fluid -->
+</nav>
+<!--Desktop menu mobile  END  -->
+
+
+{{>mobile-offcanvas}}
+

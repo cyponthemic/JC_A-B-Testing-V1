@@ -1,1 +1,12 @@
 title: assemble-bower-sass
+src: https://s3-ap-southeast-2.amazonaws.com/jennycraig/img-lossless/
+"collection": [
+  "Amy Wong",
+  "Bender",
+  "Dr. Zoidberg",
+  "Fry",
+  "Hermes Conrad",
+  "Leela",
+  "Professor Farnsworth",
+  "Scruffy"
+]

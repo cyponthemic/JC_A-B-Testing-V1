@@ -1,0 +1,70 @@
+a.cta {
+  text-transform: uppercase;
+  color: #FFF;
+  background: #000;
+  text-align: center;
+  padding: 10px 0px;
+  display: inline-block;
+  @include jenny-bold;
+  &-block {
+    display:block;
+    width: 100%;
+  }
+  &-purple{
+    background-color: #7f356b;
+  }
+  &-purple-jenny{
+    background-color:  $Jenny_purple;
+  }
+  &-orange{
+    background-color: #f89d1c;
+  }
+  &-sm {
+    font-size: 14px;
+  }
+  &-teal {
+    background-color: #47bccc;
+    &:first-child{
+      @media (max-width: 676px) {
+        margin-top: 20px;
+      }
+
+    }
+  }
+}
+a.sub-cta {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 15px 0px 5px;
+  font-style: italic;
+  display: block;
+  color: #47bccc;
+}
+button#close-menu {
+
+  visibility: hidden;
+
+}
+.canvas-slid button#close-menu {
+
+  visibility: visible;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 54, 68, 0.7);
+  transition: background-color 0.3s;
+  z-index: 1000000000;
+  top: 0;
+  float: none;
+  margin-left: 0;
+  &:after{
+    display: none;
+  }
+}
+
+.video-cover{
+  @media (max-width: 767px){
+    margin-top: 20px;
+  }
+}

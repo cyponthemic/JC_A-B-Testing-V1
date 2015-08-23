@@ -1,4 +1,13 @@
-
+//Settings
+$Jenny_blue: #007fcc;
+$Jenny_drk_blue: #0073ba;
+$Jenny_teal: #47bccc;
+$Jenny_purple: #ad4892;
+@mixin jenny-bold() {
+  font-family: "brandon-grotesque" , Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
 //https://gist.github.com/benfrain/7545629
 // Add percentage of white to a color
 @function tint($color, $percent) {
@@ -22,6 +31,15 @@ $icon-font-path: '../fonts/flat-ui/';
 // endbower
 @import "flat-ui";
 
+@import "lightbox";
+
+@import "typography";
+@import "settings";
 @import "theme";
+@import "header";
+@import "footer";
+@import "links";
+@import "hero";
+@import "rows";
 
 // Application Styles here

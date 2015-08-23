@@ -1,0 +1,82 @@
+
+#how-it-work {
+  margin-top: 10px;
+  margin-bottom: 90px;
+
+
+
+  @media (max-width: 991px) {
+  margin-bottom: 40px;}
+  @media (max-width: 767px) {
+    margin-bottom: 30px;}
+  .col-sm-4.col-md-4{
+    @media (max-width: 767px) {
+    margin-bottom: 30px;}
+  }
+}
+
+#what-do-i-eat {
+  .col-xs-6{
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+  .sub-h3 {
+    max-width: 300px;
+  }
+  @media (min-width: 991px) {
+    .col-sm-5.col-md-5.a {
+      margin-top: 70px;
+    }
+    .col-sm-5.col-md-5.b {
+      margin-top: 35px;
+
+    }
+    .col-xs-6{
+      margin-bottom: 45px;
+
+    }
+  }
+}
+
+.plus-logo {
+  @media (max-width: 767px) {
+    margin-top: 80px;
+  }
+  &:before {
+    content: "";
+    background-image: url(https://s3-ap-southeast-2.amazonaws.com/jennycraig/img-lossless/plus-sprite.png);
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    z-index: 10;
+    @media (max-width: 767px) {
+
+      top: -75px;
+      -webkit-transform: translate(-30px);
+      transform: translate(-30px);
+      left: 50%;
+      right: auto;
+    }
+    @media (min-width: 767px) {
+      left: -30px;
+      top: 35px;
+    }
+    @media (min-width: 991px) {
+      top: 55px;
+
+    }
+
+  }
+}
+
+.modal-dialog {
+  max-width: 60% !important;
+
+  @media (max-width: 991px){
+    max-width: 90% !important;
+  }
+
+  @media (max-width: 767px){
+    max-width: 100% !important;
+  }
+}
