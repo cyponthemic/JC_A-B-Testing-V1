@@ -1,0 +1,183 @@
+footer {
+  background-color: $Jenny_teal;
+  padding: 50px 0px 100px;
+  a, p , h4 {
+    color: #ffffff;
+    font-family: Arial;
+    -webkit-font-smoothing: antialiased;
+  }
+  .footer-social--links{
+    text-align: center;
+    .social-icon {
+      display: inline-block;
+      background-repeat: no-repeat;
+      margin: 0 7px;
+      cursor: pointer;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      text-align: center;
+      a{
+        display: inline-block;
+      }
+      .social-icon--facebook {
+        background-image: url(http://prodcdn-small.jennycraig.com.au/sites/all/themes/jnc_style/images/facebook-icon.png);
+        width: 22px;
+        height: 34px;
+      }
+      .social-icon--instgram {
+        background-image: url(http://prodcdn-small.jennycraig.com.au/sites/all/themes/jnc_style/images/instagram-icon.png);
+        width: 37px;
+        height: 32px;
+      }
+      .social-icon--youtube {
+        background-image: url(http://prodcdn-small.jennycraig.com.au/sites/all/themes/jnc_style/images/youtube-icon.png);
+        width: 44px;
+        height: 31px;
+      }
+      .social-icon--twitter {
+        background-image: url(http://prodcdn-small.jennycraig.com.au/sites/all/themes/jnc_style/images/twitter-icon.png);
+        width: 42px;
+        height: 31px;
+      }
+      .social-icon--blog {
+        width: 50px;
+        height: 29px;
+        border: 2px solid white;
+        border-radius: 7px;
+        font-size: 12px;
+        line-height: 1;
+        margin: 0 0 0 0;
+        position: relative;
+        padding: 6px 0px 0px 0px;
+        top: -13px;
+      }
+    }
+  }
+  ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top:20px;
+    li {
+        a{
+          font-weight: 300;
+          line-height: 28px;
+          &:hover{
+            color: $Jenny_blue;
+          }
+        }
+      &:first-child{
+        a{
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .footer-legal{
+    margin-top: 20px;
+    p, a {
+      text-align: left;
+    }
+
+  }
+}
+
+
+#footer-desktop {
+  display: none;
+  @media (min-width: 991px) {
+    display: block;
+  }
+}
+
+#footer-mobile {
+  display: block;
+  @media (min-width: 991px) {
+    display: none;
+  }
+  .panel {
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+  }
+
+  .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    .close-acc{
+      visibility:hidden;
+      opacity: 0;
+      transition: opacity 1s ease-in;
+    }
+
+    .glyphicon {
+      font-size: 28px;
+      line-height: 1;
+      top: 7px;
+      position: absolute;
+      right: 10px;
+      transition: transform 0.3s ease-in;
+    }
+    .fui-arrow-right {
+      font-size: 17px;
+      line-height: 1;
+      top: 14px;
+      position: absolute;
+      right: 10px;
+    }
+    &[aria-expanded="true"]{
+      background-color: #fff;
+      border: 2px solid #fff;
+      color: #fff;
+      font-size: 13px;
+      margin-top: 20px;
+      text-align: right;
+      text-transform: uppercase;
+      margin-right: 0;
+      padding-right: 42px;
+      padding: 5px 35px;
+
+
+      .close-acc{
+        visibility:visible;
+        display: inline-block;
+        color: $Jenny_teal;
+        opacity: 1;
+        transition: opacity 0.3s ease-in 0.7s;
+
+      }
+
+      .glyphicon {
+        transform: rotate(45deg);
+        transition: transform 0.3s ease-in;
+        color: $Jenny_teal;
+        top: 0px;
+      }
+      &+div .list-group-item:last-child {
+        margin-bottom: 20px;
+      }
+
+    }
+    &[aria-expanded="false"]{
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+
+    }
+    &+div .list-group-item {
+      background-color: rgba(46, 32, 63, 0.3);
+      border: 2px solid #fff;
+      color: #fff;
+    }
+    
+  }
+}

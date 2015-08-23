@@ -1,0 +1,71 @@
+.jenny-hero{
+  height: 410px;
+  background-size: cover;
+  background-position: bottom left;
+  .row{
+    margin:0;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 0;
+    -webkit-font-smoothing: auto;
+
+  }
+  h2{
+    font-size: 30px;
+    margin-top: -10px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    -webkit-font-smoothing: auto;
+
+  }
+  p{
+    margin: 10px 0 0;
+
+  }
+  .sub-cta{
+    color: $Jenny_blue;
+    -webkit-font-smoothing: auto;
+    margin-top: -5px;
+    font-weight: 600;
+  }
+  .cta {
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .col-md-4.col-md-offset-8 {
+    padding: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px)   {
+  .col-sm-6.col-sm-offset-6.col-md-4.col-md-offset-8 {
+    background-color: rgba(255, 252, 245, 0.78);
+    padding: 0px 13px;
+  }
+
+}
+@media  (max-width: 767px)   {
+  .jenny-hero {
+    height: 530px;
+    background-size: auto 70%;
+    background-position: 20% 100%;
+    background-repeat: no-repeat;
+    background-color: #FBFBFB;
+    margin-bottom: 70px;
+    .cta{
+    max-width: 320px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  }
+  .hack-190{
+    margin-top: 190px;
+  }
+}

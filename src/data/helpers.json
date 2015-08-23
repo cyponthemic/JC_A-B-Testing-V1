@@ -1,0 +1,135 @@
+{
+  "menu-1": [
+    {
+      "title": "About us",
+      "link": "http://www.jennycraig.com.au/about"
+    },
+    {
+      "title": "FAQ",
+      "link": "http://www.jennycraig.com.au/faq"
+    },
+    {
+      "title": "Read Our Blog",
+      "link": "http://www.jennycraig.com.au/blog"
+    },
+    {
+      "title": "Contact Us",
+      "link": "http://www.jennycraig.com.au/contact"
+    }
+  ],
+  "menu-2": [
+    {
+      "title": "How our program works",
+      "link": "http://www.jennycraig.com.au/how-it-works"
+    },
+    {
+      "title": "Meals and nutrition",
+      "link": "http://www.jennycraig.com.au/food-nutrition"
+    },
+    {
+      "title": "Find your local centre",
+      "link": "http://www.jennycraig.com.au/centre-locations"
+    },
+    {
+      "title": "Start Today",
+      "link": "http://www.jennycraig.com.au/start-today"
+    }
+  ],
+
+
+
+  "footer-col-1": [
+    {
+      "title": "How our program works",
+      "link": "http://www.jennycraig.com.au/how-it-works"
+    },
+    {
+      "title": "The cost",
+      "link": "http://www.jennycraig.com.au/the-cost"
+    },
+    {
+      "title": "Our consultants",
+      "link": "http://www.jennycraig.com.au/consultants"
+    },
+    {
+      "title": "Success stories",
+      "link": "#"
+    },
+    {
+      "title": "About us",
+      "link": "#"
+    },
+    {
+      "title": "FAQs",
+      "link": "#"
+    }
+  ],
+  "footer-col-2": [
+    {
+      "title": "Nutrition & fitness",
+      "link": "#"
+    },
+    {
+      "title": "View our delicious menus",
+      "link": "#"
+    },
+    {
+      "title": "Nutritional information",
+      "link": "#"
+    },
+    {
+      "title": "Read our blog",
+      "link": "#"
+    }
+
+  ],
+  "footer-col-3": [
+    {
+      "title": "Centres and consultations",
+      "link": "http://www.jennycraig.com.au/centre-locations"
+    },
+    {
+      "title": "Centre locations",
+      "link": "http://www.jennycraig.com.au/centre-locations"
+    },
+    {
+      "title": "Nutritional information",
+      "link": "http://www.jennycraig.com.au/food-nutrition"
+    },
+    {
+      "title": "Careers",
+      "link": "http://www.jennycraig.com.au/careers"
+    }
+  ],
+  "footer-col-4": [
+    {
+      "title": "Start now",
+      "link": "http://www.jennycraig.com.au/start-today"
+    },
+    {
+      "title": "Book a consultation",
+      "link": "http://pages.jennycraig.com.au/book-now.html"
+    },
+    {
+      "title": "Subscribe for updates",
+      "link": "#subscibe-form"
+    },
+    {
+      "title": "BMI Calculator",
+      "link": "http://www.jennycraig.com.au/bmi-calculator"
+    },
+    {
+      "title": "Contact us",
+      "link": "http://www.jennycraig.com.au/contact"
+    }
+  ],
+  "watch-video":"https://youtu.be/9_cV44Tj300",
+  "deliver":"#find-out-more",
+  "start-today":"http://www.jennycraig.com.au/start-today",
+  "get-started":"#get-started",
+  "not-ready-yet":"#not-ready-yet",
+  "FAQ":"#FAQ",
+  "testimonials":"#testimonials"
+
+
+}

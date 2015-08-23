@@ -1,0 +1,139 @@
+/*!
+ * Start Bootstrap - Full Slider HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+div[class*="col"] img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+
+}
+.inner {
+  padding: 15px;
+}
+.banner {
+  width: 100%;
+  padding: 15px;
+  .sub-h3{
+    max-width: 310px;
+    @media (max-width:676px) {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  &.purple {
+    background-color: $Jenny_purple;
+    h2,p {
+      color: white;
+    }
+    h2 {
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+  }
+  &-form{
+    background:#636463 url(http://prodcdn-small.jennycraig.com.au/sites/all/themes/jnc_style/images/subscribe-form--desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2,p {
+      color: white;
+    }
+    h2 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .sub-h3{
+      max-width: none;
+    }
+  }
+
+}
+@media (min-width: 768px) {
+  .sm-flex-vertical {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    -webkit-align-items: center;
+  }
+}
+
+
+
+
+.form {
+
+
+
+
+.form-group {
+  padding-left: 5px;
+  padding-right: 5px;
+    position: relative;
+    margin-bottom: 20px;
+
+    @media (min-width: 991px) {
+      margin-bottom: 0px;
+    }
+    @media (max-width: 991px) {
+    margin-bottom: 0px;
+    padding: 10px 20%;
+      &.btn-default{
+        margin-left: 20%;
+        margin-top: 10px;
+      }
+      input[type="radio"], input[type="checkbox"]{
+        width: 10%;
+        vertical-align: top;
+        margin: 6px 0 0;
+        &+p {
+          width: 88%;
+          text-align: left;
+        }
+      }
+    }
+    @media (max-width: 767px) {
+      padding: 10px 10%;
+      &.btn-default{
+        margin-left: 10%;
+        margin-top: 10px;
+      }
+    }
+  .form-control{
+    border: none;
+    border-radius: 0;
+  }
+}
+  .btn.btn-default {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 8px 8px 8px 16px;
+    font-family: "brandon-grotesque";
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+}
+
+.row.hr{
+  height: 22px;
+  background-position: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
