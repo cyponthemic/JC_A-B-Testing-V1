@@ -1,0 +1,39 @@
+
+<div id="footer-mobile" class="row">
+    <div class="inner">
+        <div class="list-group panel">
+            <a href="#demo1" class="list-group-item " data-toggle="collapse" data-parent="#MainMenu">How our program work <span class="close-acc">CLOSE</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+            <div class="collapse" id="demo1">
+                {{#each helpers.footer-col-1}}
+
+                    <a class="list-group-item" href="{{link}}">{{title}} <span class="fui-arrow-right" aria-hidden="true"></span></a>
+
+                {{/each}}
+            </div>
+            <a href="#demo2" class="list-group-item " data-toggle="collapse" data-parent="#MainMenu">Nutrition & Fitness <span class="close-acc">CLOSE</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+            <div class="collapse" id="demo2">
+                {{#each helpers.footer-col-2}}
+
+                    <a class="list-group-item" href="{{link}}">{{title}} <span class="fui-arrow-right" aria-hidden="true"></span></a>
+
+                {{/each}}
+            </div>
+            <a href="#demo3" class="list-group-item " data-toggle="collapse" data-parent="#MainMenu">Centres and consulations <span class="close-acc">CLOSE</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+            <div class="collapse" id="demo3">
+                {{#each helpers.footer-col-3}}
+
+                    <a class="list-group-item" href="{{link}}">{{title}} <span class="fui-arrow-right" aria-hidden="true"></span></a>
+
+                {{/each}}
+            </div>
+            <a href="#demo4" class="list-group-item " data-toggle="collapse" data-parent="#MainMenu">Start now <span class="close-acc">CLOSE</span><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
+            <div class="collapse" id="demo4">
+                {{#each helpers.footer-col-4}}
+
+                    <a class="list-group-item" href="{{link}}">{{title}} <span class="fui-arrow-right" aria-hidden="true"></span></a>
+
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</div>
