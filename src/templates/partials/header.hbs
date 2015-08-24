@@ -3,7 +3,7 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <a class="navbar-brand" href="#"><img src="http://prodcdn-large.jennycraig.com.au/sites/default/files/logo.png" alt="Jenny Craig Australia"></a>
+            <a class="navbar-brand" href="{{helpers.home}}"><img src="http://prodcdn-large.jennycraig.com.au/sites/default/files/logo.png" alt="Jenny Craig Australia"></a>
             {{>mobile-button}}
         </div>
 
@@ -11,7 +11,7 @@
         <div class="" id="bs-example-navbar-collapse-1 ">
             <ul class="nav navbar-nav desktop-display">
                 <li class="divider"></li>
-                <li><a href="#"><img src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
+                <li><a href="{{helpers.phone}}"><img src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
                     <span style="font-size: 22px;     margin-left: 5px;">1300 453 669</span>
                     </a>
                 </li>
@@ -45,7 +45,7 @@
                 {{/each}}
             </ul>
             <ul class="mobile-display mobile-display-flex nav navbar-nav navbar-center">
-                <li><a href="#"><img width="20" src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
+                <li><a href="{{helpers.phone}}"><img width="20" src="http://www.jennycraig.com.au/sites/all/themes/jnc_style/images/icon-phone--blue.png" alt="Jenny Craig Australia">
                     <span style="    font-size: 16px;     margin-left: 5px;">1300 453 669</span>
                 </a>
                 </li>
