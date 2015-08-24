@@ -126,8 +126,8 @@
   "watch-video":"https://youtu.be/9_cV44Tj300",
   "deliver":"#find-out-more",
   "start-today":"http://www.jennycraig.com.au/start-today",
-  "get-started":"#get-started",
-  "not-ready-yet":"#not-ready-yet",
+  "get-started":"http://www.jennycraig.com.au/start-today",
+  "not-ready-yet":"http://pages.jennycraig.com.au/book-now.html",
   "FAQ":"#FAQ",
   "testimonials":"#testimonials"
 
