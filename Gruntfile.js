@@ -161,7 +161,7 @@ module.exports = function (grunt) {
     },
 
     useminPrepare: {
-      html: '<%= config.src %>/templates/layouts/default.hbs',
+      html: '<%= config.src %>/templates/layouts/skeleton.hbs',
       options: {
         dest: '<%= config.dist %>',
         staging: '.temp',
