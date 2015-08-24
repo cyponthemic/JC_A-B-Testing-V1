@@ -53,15 +53,15 @@
     },
     {
       "title": "Success stories",
-      "link": "#"
+      "link": "http://www.jennycraig.com/site/real-stories/"
     },
     {
       "title": "About us",
-      "link": "#"
+      "link": "http://www.jennycraig.com.au/about"
     },
     {
       "title": "FAQs",
-      "link": "#"
+      "link": "http://www.jennycraig.com.au/faq"
     }
   ],
   "footer-col-2": [
@@ -71,15 +71,15 @@
     },
     {
       "title": "View our delicious menus",
-      "link": "#"
+      "link": "http://www.jennycraig.com.au/food-nutrition"
     },
     {
       "title": "Nutritional information",
-      "link": "#"
+      "link": "http://www.jennycraig.com.au/food-nutrition"
     },
     {
       "title": "Read our blog",
-      "link": "#"
+      "link": "http://www.jennycraig.com.au/blog"
     }
 
   ],
@@ -110,10 +110,7 @@
       "title": "Book a consultation",
       "link": "http://pages.jennycraig.com.au/book-now.html"
     },
-    {
-      "title": "Subscribe for updates",
-      "link": "#subscibe-form"
-    },
+
     {
       "title": "BMI Calculator",
       "link": "http://www.jennycraig.com.au/bmi-calculator"
@@ -123,13 +120,16 @@
       "link": "http://www.jennycraig.com.au/contact"
     }
   ],
-  "watch-video":"https://youtu.be/9_cV44Tj300",
+  "home":"http://www.jennycraig.com.au/",
+  "phone":"tel:131992",
+  "watch-video":"https://www.youtube.com/watch?v=2MlXSgXfmqY",
   "deliver":"#find-out-more",
   "start-today":"http://www.jennycraig.com.au/start-today",
-  "get-started":"#get-started",
+  "get-started":"http://www.jennycraig.com.au/start-today",
   "not-ready-yet":"#not-ready-yet",
-  "FAQ":"#FAQ",
-  "testimonials":"#testimonials"
+  "FAQ":"http://www.jennycraig.com.au/faq",
+  "testimonials":"http://www.jennycraig.com.au/consultants",
+  "callback":"http://www.jennycraig.com.au/start-today"
 
 
 }
